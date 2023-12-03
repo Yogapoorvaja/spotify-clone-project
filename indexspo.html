@@ -163,39 +163,7 @@
         </div>
         </div>
     </div>
-<script>
-        // Mock Spotify API object
-        const SpotifyAPI = {
-            play: function (trackUri) {
-                console.log(`Playing track: ${trackUri}`);
-                // Add logic to interact with the Spotify API to play the track
-            },
-            pause: function () {
-                console.log('Pausing track...');
-                // Add logic to interact with the Spotify API to pause the track
-            },
-            next: function () {
-                console.log('Skipping to the next track...');
-                // Add logic to interact with the Spotify API to skip to the next track
-            }
-        };
-
-        // Example track URI
-        const trackUri = 'spotify:track:your_track_id';
-
-        // Event listeners for the buttons
-        document.getElementById('playButton').addEventListener('click', function () {
-            SpotifyAPI.play(trackUri);
-        });
-
-        document.getElementById('pauseButton').addEventListener('click', function () {
-            SpotifyAPI.pause();
-        });
-
-        document.getElementById('nextButton').addEventListener('click', function () {
-            SpotifyAPI.next();
-        });
-    </script>
+           
 
 </body>
 </html>
